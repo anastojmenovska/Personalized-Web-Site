@@ -1,0 +1,76 @@
+.nav{
+    background-color: rgb(181, 202, 230);
+    overflow: hidden;
+    margin-top:-8px;
+    height: 70px;
+}
+.nav .left{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.nav .right{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: #f5a3d0;
+}
+.nav .right a{
+    padding-right:10px;
+}
+
+.content{
+    background-color: #f8efda;
+    height: 750px;
+}
+
+.margin-content{
+    color: white;
+}
+.first{
+    padding-top: 50px;
+    text-align: center;
+    color: #f5a3d0;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.osnovno, .sredno, .fakultet{
+    background-color: rgb(210, 186, 181);
+    border: 1px solid rgb(210, 186, 181);
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    padding: 25px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 65px;
+    margin-top: 50px;
+}
+.sredno{
+    margin-top: 200px;
+}
+.fakultet{
+    margin-right: 65px;
+}
+footer{
+    background-color: rgb(181, 202, 230);
+    text-align: center;
+    margin-top:-19px;
+    height: 70px;
+}
+footer p{
+    padding-top: 20px;
+    color: white;
+}

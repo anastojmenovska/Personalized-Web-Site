@@ -1,0 +1,96 @@
+.nav{
+    background-color: rgb(181, 202, 230);
+    overflow: hidden;
+    margin-top:-8px;
+    height: 70px;
+}
+.nav .left{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.nav .right{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: #f5a3d0;
+}
+.nav .right a{
+    padding-right:10px;
+}
+.content{
+    background-color: #f8efda;
+    height: 750px;
+
+}
+
+.margin-content{
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 750px;
+    background-color: rgb(210, 186, 181);
+    display: flex;
+    justify-content: space-between;
+}
+
+.map img{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.map p{
+    margin-left: 200px;
+}
+.contact{
+    margin-top: 150px;
+    margin-right: 300px;
+}
+.content p{
+    color: white;
+}
+.phone, .mail{
+    display: flex;
+    justify-content: space-between;
+}
+.mail a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.facebook p a, .git p a{
+    opacity: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.facebook p, .git p{
+    height: 50px;
+}
+#facebook_img{
+    background: url("images/facebook.png") no-repeat;
+    background-size: 50px;
+}
+#git_img{
+    background: url("images/github.png") no-repeat;
+    background-size: 50px;
+}
+.button:hover
+{
+    transform: scale(1.10);
+}
+footer{
+    background-color: rgb(181, 202, 230);
+    text-align: center;
+    margin-top:-19px;
+    height: 70px;
+}
+footer p{
+    padding-top: 20px;
+    color: white;
+}

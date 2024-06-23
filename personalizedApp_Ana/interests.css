@@ -1,0 +1,140 @@
+.nav{
+    background-color: rgb(181, 202, 230);
+    overflow: hidden;
+    margin-top:-8px;
+    height: 70px;
+}
+.nav .left{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.nav .right{
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: #f5a3d0;
+}
+.nav .right a{
+    padding-right:10px;
+}
+.content{
+    background-color: #f8efda;
+    height: 1700px;
+
+}
+.margin-content{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgb(210, 186, 181);
+
+}
+
+.dance{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dance img{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.dance p{
+
+    margin-top: 45px;
+    padding: 10px;
+    padding-top: 30px;
+    text-align: justify;
+    width: 900px;
+    height: 300px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.singing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.singing img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.singing p{
+    padding:10px;
+    padding-top: 60px;
+    width: 900px;
+    height: 300px;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.play{
+    display: flex;
+    justify-content: space-between;
+}
+.play img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.play p{
+    margin-top: 120px;
+    margin-right: 20px;
+    width: 900px;
+    height: 300px;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.shop{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shop p{
+    margin-top: 120px;
+    width: 900px;
+    height: 300px;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    font-weight: bolder;
+
+}
+.shop img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+footer{
+    background-color: rgb(181, 202, 230);
+    text-align: center;
+    margin-top:-19px;
+    height: 70px;
+}
+footer p{
+    padding-top: 20px;
+    color: white;
+}
